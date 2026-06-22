@@ -3,6 +3,7 @@ import { View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import HeaderTab from "../components/HeaderTabs";
 import SearchBar from "../components/SearchBar";
+import Categories from "../components/Categories";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <HeaderTab />
         <SearchBar />
       </View>
+      <Categories/>
     </SafeAreaView>
   );
 }
